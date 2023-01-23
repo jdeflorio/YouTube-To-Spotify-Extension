@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@700&display=swap" rel="stylesheet">
+    <title>YT to Spotify</title>
+    <style>
+        body {
+            width: 300px;
+            height: auto;
+            font-family: 'Heebo', sans-serif;
+        }
+        div {
+            display: flex;
+            gap: 10px;
+            position: relative;
+            left: 50%;
+            justify-content: center;
+            align-items: center;
+            transform: translateX(-50%);
+            width: 50%;
+            height: 25%;
+            padding: 5px;
+            font-size: 2.5em;
+            background-color: #1bb351;
+            border-radius: 10px;
+            text-align: center;
+            color: black;
+            margin-bottom: 15px;
+            cursor: pointer;
+            transition-duration: 0.3s;
+        }
+        div:hover {
+            background-color: #189945;
+        }
+        img {
+            height: 35px;
+            width: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sign-In With Your Spotify Account to Use This Extension</h1>
+    <div id='sign-in'>
+        <img src="./icons/spotify-logo-black.png"></img>
+        Sign In
+    </div>
+    <script src="./scripts/popup-script.js"></script>
+</body>
+</html>

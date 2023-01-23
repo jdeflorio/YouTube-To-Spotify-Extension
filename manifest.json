@@ -1,0 +1,20 @@
+{
+  "name": "YouTube to Spotify",
+  "version": "1.0.0",
+  "icons": {
+    "128": "./icons/extenstion-icon128x128.png"
+  },
+  "description": "Get the Spotify link and save any YouTube song",
+  "manifest_version": 3,
+  "author": "Joe DeFlorio",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "./scripts/background.js"
+  },
+  "permissions": [
+    "identity",
+    "tabs"
+  ]
+}

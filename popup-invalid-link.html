@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <title>YT to Spotify</title>
+    <style>
+        body {
+            width: 300px;
+            height: auto;
+            font-family: 'Heebo', sans-serif;
+        }
+        h1 {
+          display: grid;
+          justify-content: center;
+          align-items: center;
+        }
+
+        #logout {
+          height: 15px;
+          width: 15px;
+          position: absolute;
+          left: 3px;
+          bottom: 3px;
+          opacity: 0.6;
+          transition: opacity 0.5s, width 0.5s, height 0.5s;
+        }
+
+        #logout:hover {
+          cursor: pointer;
+          opacity: 1;
+          width: 18px;
+          height: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cannot find YT Link</h1>
+    <img id="logout" src="./icons/logout.png"></img>
+    <script src="./scripts/popup-invalid-link-script.js"></script>
+</body>
+</html>
